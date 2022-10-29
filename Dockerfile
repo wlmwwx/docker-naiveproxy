@@ -18,4 +18,4 @@ RUN apt-get update \
  && rm -rf /var/lib/apt/lists/*
 
 ENTRYPOINT [ "naive" ]
-CMD [ "--listen=http://0.0.0.0:1080", "--log" ]
+CMD [ "--listen=http://0.0.0.0:443", "--log" ]
